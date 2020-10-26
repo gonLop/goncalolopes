@@ -43,19 +43,19 @@ class App extends React.Component {
           <Container fluid={true} className={"p-0"}>
             <Navbar className={"border-bottom m-1 font-weight-bold"} bg={"transparent"} expand={"lg"}>
               <Navbar.Brand>
-                <Link to={"/"} className={"nav-link"}>Gonçalo Lopes</Link>
+                <Link to={"/goncalolopes"} className={"nav-link"}>Gonçalo Lopes</Link>
               </Navbar.Brand>
               <Navbar.Toggle className={"border-0"} aria-controls={"navbar-toggle"}/>
               <Navbar.Collapse id={"navbar-toggle"}>
                 <Nav className={"ml-auto"}>
-                  <Link to={"/"} className={"nav-link"}>Home</Link>
+                  <Link to={"/goncalolopes"} className={"nav-link"}>Home</Link>
                   <Link to={"/projects"} className={"nav-link"}>Projects</Link>
                   <Link to={"/contact"} className={"nav-link"}>Contact</Link>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
 
-            <Route path={"/"} exact render={() => <HomePage title={this.state.home.title}/>}/>
+            <Route path={"/goncalolopes"} exact render={() => <HomePage title={this.state.home.title}/>}/>
             <Route path={"/projects"} render={() => <ProjectsPage title={this.state.projects.title}/>}/>
             <Route path={"/contact"} render={() => <ContactPage title={this.state.contact.title}/>}/>
 
