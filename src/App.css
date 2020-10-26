@@ -1,0 +1,113 @@
+.header_img{
+  background: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+  ), url("img/homeheader.jpg") center;
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+  text-align: center;
+}
+
+.header_projects{
+  background: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+  ), url("img/projects4.jpg") center;
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+  text-align: center;
+}
+
+.header_contacts{
+  background: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+  ), url("img/contact1.jpg") center;
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+  text-align: center;
+}
+
+.navbar-brand .nav-link{
+  color: black !important;
+}
+
+.header_text{
+  font-weight: bold;
+  color: white;
+  font-size: 8vh;
+  padding: 2vh;
+}
+
+.profile_img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  align-content: center;
+}
+
+.introProjects{
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .header_img{
+    height: 35vh;
+  }
+
+  .header_projects{
+    height: 35vh;
+  }
+
+  .header_contacts{
+    height: 35vh;
+  }
+
+  .header_text{
+    font-size: 6vh;
+    padding: 4vh;
+  }
+
+}
+@media screen and (max-width: 767px) {
+  .header_img{
+    height: 35vh;
+  }
+
+  .header_projects{
+    height: 35vh;
+  }
+
+  .header_contacts{
+    height: 35vh;
+  }
+
+  .header_text{
+    font-size: 6vh;
+    padding: 2vh;
+  }
+
+
+
+}
+@media screen and (max-width: 479px) {
+  .header_img{
+    height: 35vh;
+  }
+
+  .header_projects{
+    height: 35vh;
+  }
+
+  .header_contacts{
+    height: 35vh;
+  }
+
+  .header_text{
+    font-size: 6vh;
+    padding: 1vh;
+  }
+}
