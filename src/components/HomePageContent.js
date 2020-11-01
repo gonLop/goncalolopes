@@ -51,19 +51,27 @@ function HomePageContent() {
                         <p className={"mt-1"}>Since I started my degree I have worked with a wide variety of
                             programming languages that I have used in various academic and personal projects.
                             In the following list are the languages I've worked with.</p>
-                        <ul>
-                            <li><b>Java</b></li>
-                            <li><b>Python</b></li>
-                            <li><b>JavaScript</b></li>
-                            <li><b>C/C++</b></li>
-                            <li><b>Kotlin</b></li>
-                        </ul>
+                        <Row className={"text-center"}>
+                            <Col className={"boxL"}>
+                                Java
+                            </Col>
+                            <Col className={"boxL"}>
+                                Python
+                            </Col>
+                            <Col className={"boxL"}>
+                                JavaScript
+                            </Col>
+                            <Col className={"boxL"}>
+                                Kotlin
+                            </Col>
+                            <Col className={"boxL"}>
+                                C/C++
+                            </Col>
+                        </Row>
                         <p className={"mt-1"}>I also worked with <b>HTML, CSS and Bootstrap</b> in web development
                             projects, <b>SQL</b> when there was a need to use databases and
                             I used frameworks like <b>React and Flask</b>.</p>
                     </Row>
-
-
                 </Col>
             </Row>
         </Container>

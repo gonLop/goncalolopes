@@ -21,43 +21,43 @@ class ProjectComponent extends React.Component {
                     typeOfProject: "Individual",
                     text: "In this project, a system was made that, with the aid of the machine learning library " +
                         "\"scikit-learn\", analyzes the images provided and returns the classification of that image.",
-                    pl:"Python, Flask, HTML"
+                    pl:["Python", "Flask", "HTML", "Nginx"]
                 },
                 {project: "Recipe and Restaurant search site",
                     img: img_proj2,
                     typeOfProject: "Collaboration",
                     text: "Web system that allows searching for recipes and restaurants." +
                         " These tasks are supported by two API's (spoonacular API and Zomato API).",
-                    pl:"React, HTML, CSS, JavaScript"},
+                    pl:["React", "HTML", "CSS", "JavaScript", "Bootstrap"]},
                 {project: "Android Application for Volunteering in the Food Bank",
                     img: img_proj3,
                     typeOfProject: "Collaboration",
                     text: "Android application that simulates a food bank support system",
-                    pl:"Java"},
+                    pl:["Java"]},
                 {project: "Connect-4 Game",
                     img: img_proj4,
                     typeOfProject: "Individual",
                     text: "Connect Four game in which players choose the color of their pieces and try " +
                         "to make a line of 4 pieces to win.",
-                    pl:"Java"},
+                    pl:["Java"]},
                 {project: "Chess",
                     img: img_proj5,
                     typeOfProject: "Collaboration",
                     text: "Chess game that has a board with the necessary pieces and " +
                         "the game has a time counter to control the time played by each player.",
-                    pl:"Java"},
+                    pl:["Java"]},
                 {project: "15 Puzzle",
                     img: img_proj6,
                     typeOfProject: "Individual",
                     text: "Game 15 puzzle. The objective is to organize the pieces in ascending order from 1 to 15. " +
                         "This game has a time counter to generate a leaderboard.",
-                    pl:"Java"},
+                    pl:["Java"]},
                 {project: "Web ToDoList",
                     img: img_proj7,
                     typeOfProject: "Individual",
                     text: "Simple ToDoList that allows users to post their tasks. " +
                         "Users are allowed to mark tasks as completed, edit or delete tasks.",
-                    pl:"HTML, CSS, JavaScript"},
+                    pl: ["HTML", "CSS", "JavaScript"]},
             ]
         }
     }
