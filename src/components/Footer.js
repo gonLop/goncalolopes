@@ -8,7 +8,7 @@ function Footer(){
         <footer className={"mt-5 mb-3"}>
             <Container fluid={true}>
                 <Row className={"border-top justify-content-center pt-3"}>
-                    Developed by Gonçalo Lopes © 2020 Copyright
+                    Developed by Gonçalo Lopes Copyright © 2020
                 </Row>
             </Container>
         </footer>

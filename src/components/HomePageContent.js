@@ -72,6 +72,15 @@ function HomePageContent() {
                             projects, <b>SQL</b> when there was a need to use databases and
                             I used frameworks like <b>React and Flask</b>.</p>
                     </Row>
+                    <Row className={"mt-2 p-3 text-justify"}>
+                        <h2>Hobbies and Interests</h2>
+                        <p className={"mt-1"}>
+                            In my free time, besides dedicating myself to some small projects,
+                            I like reading books of the most diverse genres, fishkeeping and playing sports like
+                            football or going to the gym. I'm also very interested in exploring nature and socializing
+                            with my friends.
+                        </p>
+                    </Row>
                 </Col>
             </Row>
         </Container>
