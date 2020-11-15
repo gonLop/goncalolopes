@@ -45,7 +45,7 @@ function HomePageContent() {
                         <p className={"mt-1"}>Hello! My name is Gonçalo Lopes and I'm 20 years old. Right now I'm in
                             the third year of my degree in Computer Science at the
                             Polytechnic Institute of Beja in Portugal.</p>
-                        <p>You can find my resume <a href={"https://europa.eu/!rd44Yy"} target={"_blank"}>here</a></p>
+                        <p>You can find my curriculum <a href={"https://europa.eu/!rd44Yy"} target={"_blank"}>here</a>.</p>
                     </Row>
                     <Row className={"mt-2 p-3 text-justify"}>
                         <h2>Technical Skills</h2>
