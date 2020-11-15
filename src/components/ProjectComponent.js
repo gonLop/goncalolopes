@@ -52,12 +52,12 @@ class ProjectComponent extends React.Component {
                     text: "Game 15 puzzle. The objective is to organize the pieces in ascending order from 1 to 15. " +
                         "This game has a time counter to generate a leaderboard.",
                     pl:["Java"]},
-                {project: "Web ToDoList",
-                    img: img_proj7,
-                    typeOfProject: "Individual",
-                    text: "Simple ToDoList that allows users to post their tasks. " +
-                        "Users are allowed to mark tasks as completed, edit or delete tasks.",
-                    pl: ["HTML", "CSS", "JavaScript"]},
+                // {project: "Web ToDoList",
+                //     img: img_proj7,
+                //     typeOfProject: "Individual",
+                //     text: "Simple ToDoList that allows users to post their tasks. " +
+                //         "Users are allowed to mark tasks as completed, edit or delete tasks.",
+                //     pl: ["HTML", "CSS", "JavaScript"]},
             ]
         }
     }
